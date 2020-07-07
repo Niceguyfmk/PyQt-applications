@@ -17,6 +17,7 @@ def window():
 
     label = QtWidgets.QLabel(win)
     label.setText("My first label!")
+    label.move(50,50)
     
     #Make window Visible
     win.show()
